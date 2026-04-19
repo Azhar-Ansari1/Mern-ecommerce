@@ -83,12 +83,12 @@ const loginUser = async (req, res) => {
       success: true, 
       message: "Logged in successfully",
       token,
-      user: {
-             email: checkUser.email,
+     user: {
+        email: checkUser.email,
         role: checkUser.role,
         id: checkUser._id,
         userName: checkUser.userName,
-      }
+      },
     })
   } catch (e) {
     console.log(e);
@@ -129,6 +129,7 @@ const logoutUser = (req, res) => {
 //   }
 // };
   const authMiddleware = async (req, res, next) => {
+    const authHeader = req.header['authorization'];
   const token = authHeader && authHeader.split(' ')[1];
   if (!token)
     return res.status(401).json({
