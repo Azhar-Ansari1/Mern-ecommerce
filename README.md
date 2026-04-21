@@ -1,5 +1,5 @@
 Project Name: MERN-eCommerce-Platform
-Description: A full-featured online marketplace where users can browse products, manage a shopping cart, and complete purchases, while admins manage inventory and orders. 
+1. A full-featured online marketplace where users can browse products, manage a shopping cart, and complete purchases, while admins manage inventory and orders. 
 
 2. Core Features
 User Authentication: Secure login/registration using JSON Web Tokens (JWT).
