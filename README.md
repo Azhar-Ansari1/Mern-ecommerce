@@ -10,8 +10,7 @@ https://mern-ecommerce-1-k61b.onrender.com
 
 ---
 
-## 📸 Preview
-![App Preview](https://via.placeholder.com/900x450.png?text=MERN+E-Commerce+Preview)
+
 
 ---
 
